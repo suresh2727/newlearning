@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+.second {
+  position: absolute;
+  background-color: white;
+  height: 120px;
+  width: 770px;
+  top: 66%;
+  overflow: hidden;
+  right: 25%;
+  transform: rotate(5deg);
+}
